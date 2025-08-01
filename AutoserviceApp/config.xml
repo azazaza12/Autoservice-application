@@ -1,0 +1,6 @@
+<database>
+    <parameter name="url">jdbc:postgresql://localhost:5432/car_service</parameter>
+    <parameter name="username">postgres</parameter>
+    <parameter name="password">1234</parameter>
+</database>
+

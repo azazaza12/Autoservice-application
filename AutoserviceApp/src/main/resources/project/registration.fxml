@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.VBox?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml"  fx:controller="project.RegistrationApplication">
+    <Label text="Логин:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <TextField fx:id="regLoginField" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+
+    <Label text="Пароль:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <PasswordField fx:id="regPasswordField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+
+    <RadioButton fx:id="isMasterRadio" mnemonicParsing="false" text="Мастер" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <RadioButton fx:id="isOperatorRadio" mnemonicParsing="false" text="Оператор" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <RadioButton fx:id="isAccountantRadio" mnemonicParsing="false" text="Бухгалтер" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+
+
+
+
+
+    <Button text="Зарегистрироваться" fx:id="registrationButton" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+
+</GridPane>
+
