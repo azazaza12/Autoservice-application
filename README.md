@@ -1,2 +1,2 @@
 # Autoservice-application
-Application for automating the work of a car service
+Приложение для автоматизации работы автосервиса
